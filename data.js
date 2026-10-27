@@ -25,8 +25,8 @@ const PORTFOLIO_DATA = {
     socials: {
       github: "https://github.com/SaniChotman",
       linkedin: "https://linkedin.com/in/Sani Chotman Maulana",
-      instagram: "https://instagram.com/@chotmanms",
-      whatsapp: "085933696090"
+      instagram: "https://instagram.com/chotmanms",
+      whatsapp: "https://wa.me/6285933696090"
     }
   },
 
@@ -34,7 +34,7 @@ const PORTFOLIO_DATA = {
   stats: [
     { label: "Proyek Selesai", value: "4+" },
     { label: "Jam Koding Mandiri", value: "200+" },
-    { label: "Sertifikasi Kursus", value: ""0 },
+    { label: "Sertifikasi Kursus", value: "0" },
     { label: "Semangat Belajar", value: "100%" }
   ],
 
@@ -162,14 +162,14 @@ const PORTFOLIO_DATA = {
         type: "WhatsApp",
         value: "+62 859-3369-6090",
         actionText: "Chat WhatsApp",
-        link: "+62 859-3369-6090",
+        link: "https://wa.me/6285933696090?text=Halo%20Sani,%20saya%20melihat%20portofolio%20Anda.",
         icon: "whatsapp"
       },
       {
         type: "Lokasi",
         value: "Bandung, Indonesia",
         actionText: "Lihat di Maps",
-        link: "https://maps.app.goo.gl/YSsYcPXJFUovVmrV7,Indonesia",
+        link: "https://maps.app.goo.gl/YSsYcPXJFUovVmrV7",
         icon: "location"
       }
     ]
