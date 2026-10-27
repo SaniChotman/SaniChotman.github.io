@@ -132,8 +132,20 @@ function renderHero() {
 
 // 3. Render Experience Section
 function renderExperience() {
+  const section = document.getElementById('experience');
   const container = document.getElementById('experience-list');
-  if (!container || !Array.isArray(PORTFOLIO_DATA.experiences)) return;
+  const navLinks = document.querySelectorAll('a[href="#experience"]');
+
+  // Jika tidak ada data pengalaman kerja, sembunyikan section dan link navbar-nya secara rapi
+  if (!PORTFOLIO_DATA.experiences || PORTFOLIO_DATA.experiences.length === 0) {
+    if (section) section.classList.add('hidden');
+    navLinks.forEach(link => link.classList.add('hidden'));
+    return;
+  }
+
+  if (section) section.classList.remove('hidden');
+  navLinks.forEach(link => link.classList.remove('hidden'));
+  if (!container) return;
 
   container.innerHTML = PORTFOLIO_DATA.experiences.map((exp, index) => `
     <div class="relative pl-8 md:pl-10 group">

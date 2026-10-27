@@ -24,9 +24,9 @@ const PORTFOLIO_DATA = {
     // Media Sosial
     socials: {
       github: "https://github.com/SaniChotman",
-      linkedin: "https://linkedin.com/in/Sani Chotman Maulana",
+      linkedin: "https://linkedin.com/in/sanichotman",
       instagram: "https://instagram.com/chotmanms",
-      whatsapp: "https://wa.me/6285933696090"
+      whatsapp: "https://wa.me/6285933696090?text=Halo%20Sani,%20saya%20tertarik%20dengan%20portofolio%20Anda."
     }
   },
 
@@ -50,49 +50,22 @@ const PORTFOLIO_DATA = {
     { name: "VS Code & DevTools", level: "Dasar", category: "Tools" }
   ],
 
-  // Pengalaman (Bagi yang belum kerja kantor: isi dengan Studi Independen / Bootcamp / Proyek Kuliah / Volunteer)
-  // experiences: [
-  //   {
-  //     // role: "Peserta Studi Independen Web Development",
-  //     company: "Program Pelatihan Digital / Bootcamp",
-  //     period: "2023 - 2024",
-  //     type: "Intensive Program",
-  //     location: "Online / Remote",
-  //     description: "Menyelesaikan kurikulum intensif pengembangan web modern, praktik pembuatan antarmuka responsif, dan kolaborasi tim menggunakan Git.",
-  //     highlights: [
-  //       "Membangun proyek akhir (Capstone Project) aplikasi web responsif bersama tim beranggotakan 3 orang.",
-  //       "Menerapkan best practice Git workflow (branching, pull request, dan code review).",
-  //       "Lulus dengan predikat nilai memuaskan dan menyelesaikan semua submission tugas tepat waktu."
-  //     ],
-  //     technologies: ["HTML5", "CSS3", "JavaScript", "Tailwind CSS", "Git"]
-  //   },
-  //   {
-  //     role: "Freelance / Web Developer Volunteer",
-  //     company: "Proyek Mandiri & Klien Lokal",
-  //     period: "2023",
-  //     type: "Freelance",
-  //     location: "Jakarta",
-  //     description: "Membantu pembuatan website profil UMKM dan halaman landing page promosi untuk meningkatkan kehadiran digital usaha lokal.",
-  //     highlights: [
-  //       "Merancang tampilan website yang cepat dan mudah dibaca di layar smartphone.",
-  //       "Mengintegrasikan tombol chat langsung ke WhatsApp untuk meningkatkan pesanan masuk."
-  //     ],
-  //     technologies: ["Tailwind CSS", "JavaScript", "Responsive Design"]
-  //   },
-  //   {
-  //     role: "Staf Divisi IT & Dokumentasi",
-  //     company: "Organisasi Kampus / Komunitas",
-  //     period: "2022 - 2023",
-  //     type: "Organisasi",
-  //     location: "Kampus",
-  //     description: "Bertanggung jawab atas publikasi informasi kegiatan dan pengelolaan halaman web sederhana acara tahunan kampus.",
-  //     highlights: [
-  //       "Mengelola pembaruan konten dan dokumentasi kegiatan secara berkala.",
-  //       "Bekerja sama dengan tim publikasi dan desain dalam menyusun konten digital."
-  //     ],
-  //     technologies: ["Content Management", "Komunikasi Tim", "Design"]
-  //   }
-  // ],
+  // Pengalaman Kerja (Jika kosong [], bagian pengalaman di website akan otomatis disembunyikan dengan rapi)
+  experiences: [
+    // Jika nanti ada pengalaman magang/proyek, Anda cukup buka komentar di bawah ini:
+    /*
+    {
+      role: "Junior Web Developer (Intern)",
+      company: "Nama Perusahaan / Startup",
+      period: "2024",
+      type: "Internship",
+      location: "Bandung",
+      description: "Membantu pengembangan fitur web frontend dan integrasi API.",
+      highlights: ["Mengembangkan tampilan responsif", "Berkolaborasi dengan tim"],
+      technologies: ["HTML5", "CSS3", "JavaScript", "Tailwind CSS"]
+    }
+    */
+  ],
 
   // Proyek Portofolio (Project Section)
   projects: [
@@ -103,7 +76,7 @@ const PORTFOLIO_DATA = {
       image: "assets/project1.jpg",
       tags: ["Tailwind CSS", "JavaScript", "Chart.js", "Responsive"],
       demoUrl: "https://example.com/demo1",
-      githubUrl: "https://github.com/rifki-pratama/quantum-dashboard"
+      githubUrl: "https://github.com/SaniChotman"
     },
     {
       title: "Lumina Luxe E-Commerce",
@@ -112,7 +85,7 @@ const PORTFOLIO_DATA = {
       image: "assets/project2.jpg",
       tags: ["HTML5", "Tailwind CSS", "Vanilla JS", "Local Storage"],
       demoUrl: "https://example.com/demo2",
-      githubUrl: "https://github.com/rifki-pratama/lumina-luxe-shop"
+      githubUrl: "https://github.com/SaniChotman"
     },
     {
       title: "NexaFlow AI Productivity Suite",
@@ -121,7 +94,7 @@ const PORTFOLIO_DATA = {
       image: "assets/project3.jpg",
       tags: ["Tailwind CSS", "JavaScript", "OpenAI API", "Web App"],
       demoUrl: "https://example.com/demo3",
-      githubUrl: "https://github.com/rifki-pratama/nexaflow-ai-task"
+      githubUrl: "https://github.com/SaniChotman"
     }
   ],
 
@@ -133,16 +106,8 @@ const PORTFOLIO_DATA = {
       period: "2023 - sekarang",
       score: "IPK 3.72 / 4.00 (Cum Laude)",
       description: "Fokus pada Rekayasa Perangkat Lunak, Algoritma, dan Desain Web.",
-      activities: ["mengerjakan projek praktikal koding pada tugas kuliah"]
-    },
-    // {
-    //   degree: "Full-Stack Web Development Bootcamp",
-    //   institution: "Hacktiv8 Indonesia",
-    //   period: "2022",
-    //   score: "Grade A (Top Graduate)",
-    //   description: "Program intensif 4 bulan mencakup arsitektur modern web, responsive design, testing, dan deployment cloud.",
-    //   activities: ["Penerima beasiswa prestasi penuh", "Best Final Project Team"]
-    // }
+      activities: ["Mengerjakan projek praktikal koding pada tugas kuliah"]
+    }
   ],
 
   // Informasi Kontak (Contact Section)
